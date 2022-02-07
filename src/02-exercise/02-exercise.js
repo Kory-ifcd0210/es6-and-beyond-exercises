@@ -31,7 +31,7 @@
  *
  * {
  *  firstName: "Ana",
- *  lastName: "Marks",
+ *  firstName: "Marks",
  * }
  *
  * The `firstName` and `lastName` should be concatenated
@@ -41,8 +41,12 @@
  */
 
 // Finish the code of the function
-function exercise02(firstName='Ana', lastName='Marks') {
-    return 'Hello I am'+object.firstName+' '+object.lastName;
+function exercise02({
+    firstName = 'Default firstName',
+    lastName = 'Default lastName',
+}) {
+            let message =  'Hello I am '+ firstName + ' ' + lastName;
+            return message;
 }
 
 // Don’t change the code bellow this line
