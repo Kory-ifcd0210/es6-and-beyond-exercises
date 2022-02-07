@@ -16,13 +16,16 @@
  */
 
 // Finish the code of the function
-function exercise01() {}
+function exercise01(a=1,b=1) {
+    return a * b;
+}
 
+import { isStreamLike } from "combined-stream";
 // Don’t change the code bellow this line
 import setup01Exercise from "./01-exercise-setup";
 
 if (process.env.NODE_ENV !== "test") {
-    setup01Exercise(() => console.log(exercise01()));
+    setup01Exercise(() => console.log(exercise01(1)));
     setup01Exercise(() => console.log(exercise01(5)));
     setup01Exercise(() => console.log(exercise01(undefined, 2)));
 }

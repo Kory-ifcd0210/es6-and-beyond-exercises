@@ -41,7 +41,9 @@
  */
 
 // Finish the code of the function
-function exercise02() {}
+function exercise02(firstName='Ana', lastName='Marks') {
+    return 'Hello I am'+object.firstName+' '+object.lastName;
+}
 
 // Don’t change the code bellow this line
 import setup02Exercise from "./02-exercise-setup";
