@@ -17,7 +17,7 @@
 
 // Finish the code of the function
 function exercise11(array, entry) {
-    return entry.find(entry);
+    return array.find(entry);
 }
 
 // Don’t change the code bellow this line

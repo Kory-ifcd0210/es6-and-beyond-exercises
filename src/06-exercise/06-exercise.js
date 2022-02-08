@@ -27,10 +27,7 @@ function exercise06() {
         averageGrade: 6.6,
     };
     const {firstName, lastName, ...rest} = user;
-    return rest =  { age: 33,
-        jobTitle: "Student",
-        company: "Assembler School",
-        averageGrade: 6.6}
+    return rest;
 }
 
 // Don’t change the code bellow this line
